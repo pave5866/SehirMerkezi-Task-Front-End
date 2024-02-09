@@ -4,8 +4,13 @@ const ShoppingCartContext = createContext();
 
 const ShoppingCartProvider = ({ children }) => {
   const [cart, setCart] = useState(() => {
-    const storedCart = localStorage.getItem("cart");
-    return storedCart ? JSON.parse(storedCart) : [];
+    try {
+      const storedCart = localStorage.getItem("cart");
+      return storedCart ? JSON.parse(storedCart) : [];
+    } catch (error) {
+      console.error("Error parsing cart data from localStorage:", error);
+      return [];
+    }
   });
 
   useEffect(() => {
@@ -17,9 +22,7 @@ const ShoppingCartProvider = ({ children }) => {
   };
 
   const removeFromCart = (product) => {
-    setCart((prevCart) =>
-      prevCart.filter((item) => item.id !== product.id)
-    );
+    setCart((prevCart) => prevCart.filter((item) => item.id !== product.id));
   };
 
   const clearCart = () => {
