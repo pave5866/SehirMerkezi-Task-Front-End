@@ -1,0 +1,22 @@
+.footer_container {
+  height: 30vh;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cpy {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+footer {
+  background-color: #fff8f0;
+}

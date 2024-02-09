@@ -1,0 +1,40 @@
+.ebay-about-container {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.ebay-about-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: start;
+  background-color: #e6f0fb;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  /* width: 100%; */
+  height: 30px;
+  padding-left: 4rem;
+}
+.ebay-aboutlne {
+  color: blue;
+  font-weight: bold;
+  font-size: 16px;
+  border-bottom: 2px solid blue;
+}
+.about-imgs {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ebay-about-title {
+  display: flex;
+  flex-direction: row;
+  padding-left: 4rem;
+  margin-top: 3rem;
+  gap: 3rem;
+}

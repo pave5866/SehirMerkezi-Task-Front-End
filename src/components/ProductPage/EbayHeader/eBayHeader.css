@@ -1,0 +1,87 @@
+.ebay-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+  background-color: #fff;
+  /* not: 89. box shadow beğendim.  */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  padding: 0.5rem;
+  border-radius: 0 0 55px 55px;
+}
+.ebay-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: #f3f3f3;
+  width: 500px;
+}
+.all-categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.2rem;
+  align-items: center;
+  padding-left: 1rem;
+}
+.ebay-input {
+  background-color: #f3f3f3;
+  border: none;
+}
+.ebay-input:focus {
+  border: none;
+  outline: none;
+}
+.ebay-search-img {
+  background-color: rgb(0, 4, 214);
+  color: white;
+  fill: white;
+  padding: 0.5rem;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+.wishlist-other {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  gap: 1.5rem;
+}
+.wishlist-other div {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+}
+.browse-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  width: 250px;
+  padding: 1.5rem;
+  border-radius: 18px;
+  font-weight: bold;
+  gap: 0.5rem;
+  font-size: 16px;
+}
+.my-cart-length {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  background-color: blue;
+  border-radius: 100%;
+  width: 18px;
+  height: 18px;
+  color: white;
+  position: relative;
+  top: -43px;
+  left: -28px;
+}

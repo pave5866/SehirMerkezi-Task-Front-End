@@ -1,0 +1,169 @@
+.ebays-container {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 4rem;
+}
+.ebay-card-container {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  width: 100%;
+  font-size: 16px;
+  border-bottom: 1px solid #b0cef5;
+  padding: 10px;
+}
+.left-0 {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: #b0cef5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ebay-accessories {
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: center;
+  background-color: #e6f0fb;
+  padding: 0.3rem;
+}
+.ebay-producttss {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #2f294d;
+  font-size: 32px;
+}
+.ebay-texts {
+  padding: 50px;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.ebay-imgs {
+  cursor: pointer;
+  background-color: #e6f0fb;
+  padding: 2rem;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.title-star {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  font-size: 32px;
+  font-weight: bold;
+}
+.ebay-reviews {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 16px;
+  color: #2f294d;
+}
+.ebay-reviews img {
+  width: 32px;
+  height: 32px;
+}
+.ebay-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.priceess {
+  font-size: 44px;
+}
+.free2 {
+  font-size: 16px;
+  color: #2f294d;
+}
+.starlightt {
+  background-color: #b0cef5;
+  padding: 0.6rem;
+  color: blue;
+  border-radius: 9px;
+}
+.ulli-none ul {
+  list-style-type: none;
+  text-decoration: none;
+  color: #2f294d;
+}
+.ulli-none ul li img {
+  margin-right: 10px;
+}
+.soldlast24 {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  color: blue;
+  font-weight: bold;
+}
+.soldlast24 p {
+  margin-left: 10px;
+}
+.btnbuy-it {
+  border: none;
+  padding: 14px 70px;
+  border-radius: 10px;
+  background-color: #0064d2;
+  color: white;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.btncart {
+  background: rgba(0, 100, 210, 0.1);
+  border: none;
+  padding: 14px 70px;
+  border-radius: 10px;
+  color: #0064d2;
+  cursor: pointer;
+}
+.ebay-btn {
+  margin-top: 10px;
+}
+.ebay-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.ebay-imagess {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  background-color: #b0cef5;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.pngss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}

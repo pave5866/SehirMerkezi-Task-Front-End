@@ -1,0 +1,81 @@
+.customer_container {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #112b3c;
+  color: #fff;
+  gap: 4rem;
+  padding: 0 6rem;
+}
+.star {
+  position: relative;
+  top: 30px;
+  left: -400px;
+}
+.title {
+  font-size: 64px;
+  color: #ffffff;
+  align-self: flex-start;
+  position: relative;
+  top: -90px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+  width: 50%;
+}
+.arrows {
+  float: left;
+  position: relative;
+}
+
+.contents-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  top: -100px;
+}
+
+.content_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.title-content {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.people {
+  padding-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  color: #f66b0e;
+  font-weight: bold;
+}
+.job {
+  font-size: medium;
+  color: #ffffff5b;
+}
+.desc {
+  color: #ffffff5b;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+.arrows {
+  align-self: center;
+  position: relative;
+  left: -50px;
+}
