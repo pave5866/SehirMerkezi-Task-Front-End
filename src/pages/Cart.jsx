@@ -20,20 +20,24 @@ const Cart = () => {
 
   return (
     <div className="cart-basket">
-      <h2 className="cart-title">Alışveriş Sepeti</h2>
+      <h2 className="cart-title">Basket</h2>
       <ul className="cart-items">
         {cart.map((item) => (
           <li className="cart-item" key={item.id}>
-            <div>
-            {item.title}
-            </div>
+            <div>{item.title}</div>
             <div>${item.price}</div>
-            <button onClick={() => removeFromCart(item)}>Sepetten Çıkar</button>
+            <button onClick={() => removeFromCart(item)}>
+              Basket to Remove
+            </button>
           </li>
         ))}
       </ul>
-      <button className="clear-cart" onClick={clearCart}>Sepeti Temizle</button>
-      <button className="download-cart" onClick={handleDownload}>Sepeti İndir</button>
+      <button className="clear-cart" onClick={clearCart}>
+        Basket All Remove
+      </button>
+      <button className="download-cart" onClick={handleDownload}>
+        Basket Download to JSON
+      </button>
     </div>
   );
 };

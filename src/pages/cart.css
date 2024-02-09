@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  color: red;
+  color: aquamarine;
   background-color: rgb(12, 24, 92);
   padding: 10px;
   border-radius: 20px;
@@ -43,8 +43,8 @@
 }
 
 button {
-  background-color: red;
-  color: #fff;
+  background-color: rgb(12, 24, 92);
+  color: yellowgreen;
   border: none;
   padding: 16px 16px;
   border-radius: 4px;
