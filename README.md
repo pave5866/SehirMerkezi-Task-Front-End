@@ -1,4 +1,4 @@
-Author: Kadir ERDEM
+Author: Kadir ERDEM: 
 SEHİR MERKEZİ TEKNOLOJİLERİ / FRON-END TASK
 
 
